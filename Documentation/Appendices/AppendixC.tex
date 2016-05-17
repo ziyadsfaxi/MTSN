@@ -1,0 +1,78 @@
+\chapter{Inserting Inline Graphics} 
+\label{AppendixC} 
+\lhead{Appendix C. \emph{Inserting Inline Graphics}} 
+
+% Write your Appendix C content below here.
+% ==============================================
+
+\section{Section Title}
+To understand the basic ideas of software design Add and remove tabs Working with tabs in gedit allows you to keep an eye on several \index{files} in a single window. 
+
+
+\renewcommand*{\familydefault}{\sfdefault}
+
+\begin{tikzpicture}[
+	start chain=going right,
+	box/.style={
+		on chain,join,draw,
+		minimum height=3cm,
+		text centered,
+		minimum width=2cm,
+	},
+	every join/.style={ultra thick},
+	node distance=5mm
+]
+
+\node [on chain] {AC in}; % Chain starts here
+
+\node [box,xshift=5mm,label=above:Rectifier] (rec) {
+	\begin{circuitikz}
+		\draw (0,0) to[Do] (0,2);
+	\end{circuitikz}
+};
+
+\node [on chain,join,draw, 
+	text width=1cm,
+	minimum width=4cm,
+	minimum height=1.6cm,
+	label=above:Intermediate circuit,
+] (ic) {
+	\begin{circuitikz}[american voltages]
+		\draw (0,0) to[pC,v>=$ $] (0,2);
+	\end{circuitikz}
+};
+
+\node [box,label=above:Inverter] (inv) {
+	\begin{circuitikz}
+		\draw (0,0) node[nigbt] {};
+	\end{circuitikz}
+};
+
+\node [on chain,join,xshift=5mm]{AC out};
+% Chain ends here
+
+% CU box
+\node [
+	rectangle,draw,
+	below=5mm of ic,
+	minimum width=10cm,
+	minimum height=1cm,
+] (cu) {\textbf{Control unit}};
+
+% PU box
+\node [
+	rectangle,draw,
+	above=2mm of cu,
+	minimum width=10cm,
+	minimum height=4cm,
+	label=\textbf{Power unit},
+] (pu) {};
+
+% Connections between CU and PU
+\draw[<->] (rec.south) -- ++(0,-5mm);
+\draw[<->] (cu.north) to (ic.south);
+\draw[<->] (inv.south) -- ++(0,-5mm);
+
+\end{tikzpicture}
+
+

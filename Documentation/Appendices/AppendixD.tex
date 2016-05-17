@@ -1,0 +1,50 @@
+\chapter{Inserting Inline Codes} 
+\label{AppendixD} 
+\lhead{Appendix D. \emph{Inserting Inline Codes}} 
+
+% Write your Appendix D content below here.
+% ==============================================
+
+\section{Formatting Source Codes}
+
+% A complete reference manual can be found at \url{http://tug.ctan.org/tex-archive/macros/latex/contrib/listings/listings.pdf} \\
+% \url{http://en.wikibooks.org/wiki/LaTeX/Source\_Code\_Listings} \\
+% For writing software source codes in latex blocks of code. This is a basic example for listing program code: 
+%% ALAILABLE LANGUAGE LISTINGS
+%% http://tug.ctan.org/tex-archive/macros/latex/contrib/listings/listings.pdf#table.1
+%% PREAMBLE SECTION MUST HAVE
+%% \usepackage{listings}
+% Set your language (you can change the language for each code-block optionally)
+% The general form is \lstset{ language = [<dialect>] <language> }
+
+Using small font
+
+\lstset{basicstyle=\ttfamily\small} 
+\begin{lstlisting}[breaklines, frame=single, numbers=left, caption={Create mylatex1.tex file using nano small font}, label=commandline-02]     
+
+wruslan@wruslan-ub1404-fujitsuNB:~/latex01$ nano mylatex1.tex
+wruslan@wruslan-ub1404-fujitsuNB:~/latex01$ ls -l
+total 4
+-rw-rw-r-- 1 wruslan wruslan 15 Oct 10 07:48 mylatex1.tex
+wruslan@wruslan-ub1404-fujitsuNB:~/latex01$ cat mylatex1.tex 
+Bismillah WRY.
+wruslan@wruslan-ub1404-fujitsuNB:~/latex01$ 
+
+\end{lstlisting}      
+
+%\pagebreak
+
+Using tiny font
+    
+\lstset{basicstyle=\ttfamily\tiny} 
+\begin{lstlisting}[breaklines, frame=single, numbers=left, caption={Create mylatex1.tex file using nano tiny font}, label=commandline-02]     
+wruslan@wruslan-ub1404-fujitsuNB:~/latex01$ nano mylatex1.tex
+wruslan@wruslan-ub1404-fujitsuNB:~/latex01$ ls -l
+total 4
+-rw-rw-r-- 1 wruslan wruslan 15 Oct 10 07:48 mylatex1.tex
+wruslan@wruslan-ub1404-fujitsuNB:~/latex01$ cat mylatex1.tex 
+Bismillah WRY.
+wruslan@wruslan-ub1404-fujitsuNB:~/latex01$ 
+\end{lstlisting}      
+        
+    

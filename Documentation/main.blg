@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: Bibliography.bib
+Warning--empty title in Reference2
+Warning--empty title in Reference1
+Warning--empty title in Reference3
+Warning--empty title in Reference5
+Warning--empty title in Reference4
+Warning--empty author in Reference6
+Warning--empty title in Reference6
+Warning--empty journal in Reference6
+Warning--empty title in Reference7
+Warning--empty title in Reference8
+Warning--empty title in Reference11
+Warning--empty year in Reference11
+Warning--empty year in Reference11
+Warning--empty title in Reference9
+Warning--empty title in Reference10
+Warning--empty title in Reference12
+Warning--empty title in Reference13
+Warning--empty title in Reference14
+Warning--empty title in Reference15
+Warning--empty title in Reference16
+Warning--empty title in Reference17
+Warning--empty title in Reference18
+Warning--empty title in Reference19
+Warning--empty title in ReferencePopulationOfCyberjaya
+You've used 20 entries,
+            2481 wiz_defined-function locations,
+            659 strings with 6761 characters,
+and the built_in function-call counts, 5566 in all, are:
+= -- 496
+> -- 133
+< -- 19
++ -- 86
+- -- 38
+* -- 375
+:= -- 905
+add.period$ -- 79
+call.type$ -- 20
+change.case$ -- 20
+chr.to.int$ -- 12
+cite$ -- 45
+duplicate$ -- 360
+empty$ -- 563
+format.name$ -- 57
+if$ -- 1155
+int.to.chr$ -- 9
+int.to.str$ -- 21
+missing$ -- 20
+newline$ -- 127
+num.names$ -- 57
+pop$ -- 166
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 194
+stack$ -- 0
+substring$ -- 41
+swap$ -- 62
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 140
+warning$ -- 24
+while$ -- 38
+width$ -- 0
+write$ -- 283
+(There were 24 warnings)

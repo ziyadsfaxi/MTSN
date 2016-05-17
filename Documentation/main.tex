@@ -1,0 +1,323 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 1.43 (17/5/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Current author:
+% Some items were added and modified by for use in 
+% undergraduate Final Year Project (FYP) at
+% Multimedia University, Cyberjaya, Malaysia.
+% Wan Ruslan Yusoff 
+% wruslan@mmu.edu.my
+%
+% Original authors:
+% Steven Gunn 
+% http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/
+% and
+% Sunil Patel
+% http://www.sunilpatel.co.uk/thesis-template/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Note:
+% Make sure to edit document variables in the Thesis.cls file
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt, oneside]{Thesis} 
+% The default font size and one-sided printing (no margin offsets)
+
+\graphicspath{{Pictures/}} 
+% Specifies the directory where pictures are stored
+\usepackage{float} 
+% To make picture stay at placement
+\usepackage{pdfpages}
+\usepackage{setspace} 
+% Double spacing
+%\doublespacing % Use on each page
+
+\usepackage[square, numbers, comma, sort&compress]{natbib} 
+% Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+
+\hypersetup{urlcolor=black, colorlinks=true} 
+% Colors hyperlinks in blue - change to black if annoying
+
+\title{\ttitle} 
+% Defines the thesis title - don't touch this
+
+% ================================================
+% % ADDED BY WRY
+\usepackage{caption}
+\usepackage{appendix}
+\usepackage{tikz}
+\usepackage[europeanresistors,americaninductors]{circuitikz}
+\usetikzlibrary{chains}
+% ==================================================
+\begin{document}
+% ==================================================
+
+
+\frontmatter 
+% Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.3} 
+% Line spacing of 1.3
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} 
+% Clears all page headers and footers
+\rhead{\thepage} 
+% Sets the right side header to show the page number
+\lhead{} 
+% Clears the left side page header
+
+\pagestyle{fancy} 
+% Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+% New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+{\LARGE \ttitle}\\[0.4cm] 
+\vfill
+\Large{Zeiyad Fathi Sfaxsi, Mahmood Sarzil, Karishma Patel A/P Balvantry} 
+
+\vfill
+\normalsize{SESSION 2016}
+\vfill
+\normalsize\FACNAME\\
+\normalsize \UNIVNAME\\
+{\normalsize MAY 2016}\\ 
+\vfill
+\end{center}
+
+\end{titlepage}
+\thispagestyle{empty}
+\begin{center}
+
+	{\LARGE \ttitle}\\[0.4cm] % Thesis title
+	\vfill
+	\footnotesize{BY}
+	\vfill
+	\Large{Zeiyad Fathi Sfaxsi, Mahmood Sarzil, Karishma Patel A/P Balvantry} % Author name - remove the \href bracket to remove the link
+	\vfill
+	\footnotesize{SESSION 2016}
+	\vfill
+	\footnotesize{THIS PROJECT REPORT IS PREPARED FOR}
+	\vfil
+	\normalsize\FACNAME\\
+	\normalsize \UNIVNAME\\
+	\normalsize{IN PARTIAL FULFILLMENT}\\
+	\normalsize{FOR}\\
+	\vfil
+	\normalsize{BACHELOR OF COMPUTER SCIENCE (HONS)}\\
+	\normalsize{WITH SPECIALIZATION IN}\\
+	\normalsize{INFORMATION SYSTEMS}\\
+	\vfil
+	\normalsize\FACNAME\\
+	\vfil
+	\Large \UNIVNAME\\
+	\vfil
+	{\normalsize MAY 2016}\\ % Date
+	%\includegraphics{Logo} % University/department logo - uncomment to place it
+	\vfill
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+
+The copyright of this thesis belongs to the author under the terms of the Copyright Act 1987 as qualified by Regulation 4(1) of the Multimedia University Intellectual Property Regulations. Due acknowledgment shall always be made of the use of any material contained in, or derived from, this thesis. 
+
+\vfil
+\textit{© The Killers, 2016}\\
+All rights reserved
+
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+\newpage
+\Declaration{
+
+\addtocontents{toc}{\vspace{1em}} 
+% Add a gap in the Contents, for aesthetics
+
+I hereby declare that the work in this thesis have been done by myself and no portion of the work contained in this thesis has been submitted in support of any application for any other degree or qualification of this or any other university or institute of learning.
+
+\vfill
+
+\rule[1em]{25em}{0.5pt} % This prints a line for the signature
+\\\textit{The Killers}
+\\Faculty of Computing \& Informatics
+\\Multimedia University
+\\Date: 17$^{th}$ May 2016
+
+}
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
+
+\acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\begin{flushleft}
+\doublespacing
+
+We would like to express our deepest appreciation to all those who provided us the possibility to complete this report.  A special gratitude we give to our lecturer, Mr. Wan Ruslan Yusoff, whose contribution in stimulating suggestions and encouragement,  helped us to coordinate our project especially in learning and practicing software engineering principles and activities.\\ 
+
+
+Furthermore we would also like to acknowledge with much appreciation the senior students, who helped us by providing us with their experience.\\
+
+ A special thanks goes to our friends, who  helped us by assembling the parts and giving suggestions about the task.\\
+ 
+Many thanks go to our parents who are the reason of us being able to study in  MMU. Moreover, they have invested their full effort in guiding us in achieving our goals.\\
+ 
+  Last but not least, we have to appreciate the guidance given by other lecturers as well as the workers especially in the faculty of computing and informatics.
+
+\end{flushleft}
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+% ADDED BY WRY
+%% AUTOMATIC LIST OF LISTINGS
+% \phantomsection
+% \addtotoc{List of Software Codes}
+\lhead{\emph{List of Software Codes}}
+\lstlistoflistings
+
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS AND ACRONYMS 
+%----------------------------------------------------------------------------------------
+% ADDED BY WRY
+\pagebreak
+\addtotoc{Abbreviations and Acronyms} 
+\lhead{\normalfont\huge{Abbreviations and Acronyms}}
+
+
+% TABLE HEADER
+\begin{table}[ht]
+\begin{tabular}{p{2.5cm}p{11.0cm}}
+% ========================================
+
+\textbf{FCI} & Faculty of Computing and Informatics\\
+\textbf{MMU} & Multimedia University\\
+\textbf{MTS} & My Transportation Schedule (Software name)\\
+\textbf{Q.A.} & Quality Assurance\\
+% ======================================
+\end{tabular}
+\end{table}
+
+
+% ======================================
+%	ABSTRACT PAGE 
+% ADDED BY WRY
+\pagebreak
+\addtotoc{Management Summary} 
+\lhead{\normalfont\huge{Management Summary}}
+
+%\vspace*{1\baselineskip}
+Procedural design is considered the low level algorithmic design of software codes or computer programs. It covers the design of procedures, that is, the inner details of the steps and instructions the program are to execute to achieve their intended objectives. 
+
+% \vspace*{1\baselineskip}
+Procedural design activities can also be interpreted as the design activities at the level of software components. The software constructor will use these procedural designs and write software codes to implement and execute those designs. 
+
+
+
+\clearpage % Start a new page
+\pagebreak
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter 
+% Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} 
+% Return the page headers back to the "fancy" style
+
+\raggedright
+\input{Chapters/Chapter1} % INTRODUCTION - PROJECT OBJECTIVES/PROBLEM STATEMENTS
+\input{Chapters/Chapter2} % LITERATURE SURVEY
+\input{Chapters/Chapter3} % IMPLEMENTATION METHODOLOGY/PROPOSAL DESIGN
+\input{Chapters/Chapter4} % IMPLEMENTATION PLAN
+\input{Chapters/Chapter5} % RESULTS AND FINDINGS
+\input{Chapters/Chapter6} % DISCUSSIONS AND RECOMMENDATIONS
+\input{Chapters/Chapter7} % CONCLUSIONS
+
+
+\clearpage
+
+% ====================================
+%	BIBLIOGRAPHY
+\label{Bibliography}
+
+\lhead{\emph{Bibliography}} 
+% Change the page header to say "Bibliography"
+
+\bibliographystyle{unsrtnat} 
+% Use the "unsrtnat" BibTeX style for formatting the Bibliography
+
+\bibliography{Bibliography} 
+% The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+% ====================================
+\addtocontents{toc}{\vspace{2em}} 
+% Add a gap in the Contents, for aesthetics
+
+\appendix
+%\appendixpage
+%\addappheadtotoc
+
+\singlespacing  % USE SINGLE SPACING FOR APPENDICES
+
+\input{Appendices/AppendixA}
+\input{Appendices/AppendixB}
+\input{Appendices/AppendixC}
+\input{Appendices/AppendixD}
+\input{Appendices/AppendixE}
+
+\addtocontents{toc}{\vspace{2em}} 
+% Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+\end{document}  
