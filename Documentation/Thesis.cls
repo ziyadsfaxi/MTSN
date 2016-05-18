@@ -192,7 +192,7 @@
 %-------------------------------------------------     
 \DEGREE{BACHELOR OF COMPUTER SCIENCE (HONS)\\ WITH SPECIALIZATION IN \\SOFTWARE ENGINEERING} % Your degree name - this is currently used in the title page and abstract
 %-------------------------------------------------   
-\authors{Zeiyad Fathi Sfaxsi, Mahmood Sarzil, Karishma Patel A/P Balvantry} % Your name - this is used in the title page and abstract
+\authors{Zeiyad Fathi Sfaxsi, Mahmood Sarzil, Karishma Patel A/P Balvantry, Fariza Aqila Bt. zulkifly } % Your name - this is used in the title page and abstract
 %-------------------------------------------------   
 \addresses{} % Your address - this is not currently used anywhere in the template, cite it with \addressnames if you want it
 %-------------------------------------------------   
