@@ -1,134 +1,33 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Tutorials(2012)]{Reference2}
-AVR Tutorials.
-\newblock \emph{Microcontroller vs Microprocessor}, 2012.
+\bibitem[Wikipedia(2016{\natexlab{a}})]{wikiIOT}
+Wikipedia.
+\newblock \emph{Internet of Things (IoT)}, May 11th 2016{\natexlab{a}}.
+\newblock URL \url{https://en.wikipedia.org/wiki/Internet_of_Things}.
+\newblock Retrived on 12/05/2016.
+
+\bibitem[Rubens(2016)]{second}
+Paul Rubens.
+\newblock \emph{Internet of Things (IoT)}, May 11th 2016.
 \newblock URL
-  \url{http://www.avr-tutorials.com/general/comparison-between-microcontroller-and-microprocessor}.
-\newblock Retrived on 04/07/2015.
+  \url{http://www.cio.com/article/2843814/developer/how-to-develop-applications-for-the-internet-of-things.html}.
+\newblock Retrived on 12/05/2016.
 
-\bibitem[Choudhary(2012)]{Reference1}
-Himanshu Choudhary.
-\newblock \emph{Difference between Microprocessor and Microcontroller}, 2012.
+\bibitem[Instruments(2016)]{third}
+Texas Instruments.
+\newblock \emph{Challenges in the Internet of Things}, May 11th 2016.
 \newblock URL
-  \url{http://www.engineersgarage.com/tutorials/difference-between-microprocessor-and-microcontroller}.
-\newblock Retrived on 04/07/2015.
+  \url{http://www.ti.com/ww/en/internet_of_things/iot-challenges.html}.
+\newblock Retrived on 12/05/2016.
 
-\bibitem[Genuino(2015{\natexlab{a}})]{Reference3}
-Genuino.
-\newblock \emph{Arduino}, 2015{\natexlab{a}}.
-\newblock URL \url{https://www.arduino.cc/en/Guide/Introduction}.
-\newblock Retrived on 07/07/2015.
-
-\bibitem[Genuino(2015{\natexlab{b}})]{Reference5}
-Genuino.
-\newblock \emph{Arduino Mega 2560}, 2015{\natexlab{b}}.
-\newblock URL \url{https://www.arduino.cc/en/Main/arduinoBoardMega2560}.
-\newblock Retrived on 08/07/2015.
-
-\bibitem[Softpedia(2015)]{Reference4}
-Softpedia.
-\newblock \emph{Arduino}, June 18th 2015.
-\newblock URL
-  \url{http://www.softpedia.com/get/Programming/Other-Programming-Files/Arduino.shtml}.
-\newblock Retrived on 08/07/2015.
-
-\bibitem[Ref(2015)]{Reference6}
-2015.
-\newblock URL \url{https://www.raspberrypi.org/help/what-is-a-raspberry-pi/}.
-\newblock Retrived on 13/07/2015.
-
-\bibitem[Bruce(2013)]{Reference7}
-James Bruce.
-\newblock \emph{Arduino vs Raspberry Pi}, May 24th 2013.
-\newblock URL
-  \url{http://www.makeuseof.com/tag/arduino-vs-raspberry-pi-which-is-the-mini-computer-for-you/}.
-\newblock Retrived on 13/07/2015.
-
-\bibitem[Orsini(2015)]{Reference8}
-Lauren Orsini.
-\newblock \emph{Arduino vs Raspberry Pi}, May 7th 2015.
-\newblock URL
-  \url{http://readwrite.com/2014/05/07/arduino-vs-raspberry-pi-projects-diy-platform}.
-\newblock Retrived on 13/07/2015.
-
-\bibitem[Diffen()]{Reference11}
-Diffen.
-\newblock \emph{Analog vs. Digital}.
-\newblock URL \url{http://www.diffen.com/difference/Analog_vs_Digital}.
-\newblock Retrived on 14/07/2015.
-
-\bibitem[Chigg(2015{\natexlab{a}})]{Reference9}
-Chigg.
-\newblock \emph{Definition of Analog Signal}, 2015{\natexlab{a}}.
-\newblock URL
-  \url{http://www.chegg.com/homework-help/definitions/analog-signal-4}.
-\newblock Retrived on 14/07/2015.
-
-\bibitem[Chigg(2015{\natexlab{b}})]{Reference10}
-Chigg.
-\newblock \emph{Definition of Digital Signal}, 2015{\natexlab{b}}.
-\newblock URL
-  \url{http://www.chegg.com/homework-help/definitions/digital-signal-4}.
-\newblock Retrived on 14/07/2015.
-
-\bibitem[Wikipedia(2014)]{Reference12}
+\bibitem[Wikipedia(2016{\natexlab{b}})]{ReferencePopulationOfCyberjaya}
 Wikipedia.
-\newblock \emph{General-purpose input/output}, October 21st 2014.
-\newblock URL \url{https://en.wikipedia.org/wiki/General-purpose_input/output}.
-\newblock Retrived on 14/07/2015.
-
-\bibitem[Wikipedia(2015{\natexlab{a}})]{Reference13}
-Wikipedia.
-\newblock \emph{Linux}, July 15th 2015{\natexlab{a}}.
-\newblock URL \url{https://en.wikipedia.org/wiki/Linux}.
-\newblock Retrived on 14/07/2015.
-
-\bibitem[Wikipedia(2015{\natexlab{b}})]{Reference14}
-Wikipedia.
-\newblock \emph{Ubuntu}, July 15th 2015{\natexlab{b}}.
-\newblock URL
-  \url{https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29}.
-\newblock Retrived on 14/07/2015.
-
-\bibitem[Wikipedia(2015{\natexlab{c}})]{Reference15}
-Wikipedia.
-\newblock \emph{QT (Software)}, July 12th 2015{\natexlab{c}}.
-\newblock URL \url{https://en.wikipedia.org/wiki/Qt_%28software%29}.
-\newblock Retrived on 14/07/2015.
-
-\bibitem[Wikipedia(2015{\natexlab{d}})]{Reference16}
-Wikipedia.
-\newblock \emph{programming language}, July 6th 2015{\natexlab{d}}.
-\newblock URL \url{https://en.wikipedia.org/wiki/Programming_language}.
-\newblock Retrived on 15/07/2015.
-
-\bibitem[Wikipedia(2015{\natexlab{e}})]{Reference17}
-Wikipedia.
-\newblock \emph{C (programming language)}, July 15th 2015{\natexlab{e}}.
-\newblock URL \url{https://en.wikipedia.org/wiki/C_%28programming_language%29}.
-\newblock Retrived on 15/07/2015.
-
-\bibitem[Wikipedia(2015{\natexlab{f}})]{Reference18}
-Wikipedia.
-\newblock \emph{C++ (programming language)}, July 14th 2015{\natexlab{f}}.
-\newblock URL \url{https://en.wikipedia.org/wiki/C%2B%2B}.
-\newblock Retrived on 15/07/2015.
-
-\bibitem[Wikipedia(2015{\natexlab{g}})]{Reference19}
-Wikipedia.
-\newblock \emph{Postgre SQL}, July 10th 2015{\natexlab{g}}.
-\newblock URL \url{https://en.wikipedia.org/wiki/PostgreSQL}.
-\newblock Retrived on 15/07/2015.
-
-\bibitem[Wikipedia(2016)]{ReferencePopulationOfCyberjaya}
-Wikipedia.
-\newblock \emph{Cyberjaya}, May 16th 2016.
+\newblock \emph{Cyberjaya}, May 16th 2016{\natexlab{b}}.
 \newblock URL \url{https://en.wikipedia.org/wiki/Cyberjaya}.
 \newblock Retrived on 16/05/2016.
 
