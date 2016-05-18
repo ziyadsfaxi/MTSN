@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.17)  18 MAY 2016 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.17)  18 MAY 2016 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1199,15 +1199,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-------------------------------------------------------------------------------
- Table of Contents
-------------------------------------------------------------------------------
-(./main.lol)
-\tf@lol=\write8
-\openout8 = `main.lol'.
 
- [9
+Package Fancyhdr Warning: \headheight is too small (20.0pt): 
+ Make it at least 30.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[9
 
 ]
 
@@ -1216,16 +1214,7 @@ Package Fancyhdr Warning: \headheight is too small (20.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (20.0pt): 
- Make it at least 30.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11] (./Chapters/Chapter1.tex
+[10] (./Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
  1 Software Project Planning
@@ -1234,7 +1223,7 @@ Chapter 1.
 
 
 
-] [2] <Figures/FigureInstallation.png, id=295, 580.1675pt x 440.64626pt>
+] [2] <Figures/FigureInstallation.png, id=285, 580.1675pt x 440.64626pt>
 File: Figures/FigureInstallation.png Graphic file (type png)
 
 <use Figures/FigureInstallation.png>
@@ -1279,7 +1268,7 @@ Chapter 3.
 ------------------------------------------------------------------------------
 [8
 
-] <Figures/FigureGanttChart.png, id=325, 770.88pt x 654.445pt>
+] <Figures/FigureGanttChart.png, id=315, 770.88pt x 654.445pt>
 File: Figures/FigureGanttChart.png Graphic file (type png)
 
 <use Figures/FigureGanttChart.png>
@@ -1297,7 +1286,7 @@ Chapter 4.
 ------------------------------------------------------------------------------
 [10
 
-] <Figures/FigureOrganizationChart.png, id=335, 748.7975pt x 455.7025pt>
+] <Figures/FigureOrganizationChart.png, id=325, 748.7975pt x 455.7025pt>
 File: Figures/FigureOrganizationChart.png Graphic file (type png)
 
 <use Figures/FigureOrganizationChart.png>
@@ -1318,7 +1307,7 @@ Chapter 5.
 ------------------------------------------------------------------------------
 [14
 
-] <Figures/PrototypingModel.png, id=355, 751.80875pt x 395.4775pt>
+] <Figures/PrototypingModel.png, id=345, 751.80875pt x 395.4775pt>
 File: Figures/PrototypingModel.png Graphic file (type png)
 
 <use Figures/PrototypingModel.png>
@@ -1330,7 +1319,7 @@ Chapter 6.
 ------------------------------------------------------------------------------
  6 Software Project Design
 ------------------------------------------------------------------------------
-<Figures/FigureUseCase.png, id=367, 739.76375pt x 516.93124pt>
+<Figures/FigureUseCase.png, id=357, 739.76375pt x 516.93124pt>
 File: Figures/FigureUseCase.png Graphic file (type png)
 
 <use Figures/FigureUseCase.png>
@@ -1339,7 +1328,7 @@ Package pdftex.def Info: Figures/FigureUseCase.png used on input line 22.
  [17
 
 ]
-<Figures/FigureComponentDiagram.png, id=372, 488.82625pt x 300.12125pt>
+<Figures/FigureComponentDiagram.png, id=362, 488.82625pt x 300.12125pt>
 File: Figures/FigureComponentDiagram.png Graphic file (type png)
 
 <use Figures/FigureComponentDiagram.png>
@@ -1348,7 +1337,7 @@ Package pdftex.def Info: Figures/FigureComponentDiagram.png used on input line
 (pdftex.def)             Requested size: 391.06152pt x 240.09732pt.
  [18 <./Figures/FigureUseCase.png>]
 [19 <./Figures/FigureComponentDiagram.png>]
-<Figures/FugreSequanceDiagram.png, id=384, 822.07124pt x 512.91624pt>
+<Figures/FugreSequanceDiagram.png, id=373, 822.07124pt x 512.91624pt>
 File: Figures/FugreSequanceDiagram.png Graphic file (type png)
 
 <use Figures/FugreSequanceDiagram.png>
@@ -1369,23 +1358,23 @@ Chapter 7.
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 313.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7E94AF63D0FB48214741DC67274559D9;5998.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
+(rerunfilecheck)             Checksum: 95B7CB33DB9619B4EE2FCC91474D853E;5915.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
- 29492 strings out of 493091
- 581798 string characters out of 6134964
+ 29484 strings out of 493091
+ 581734 string characters out of 6134964
  713091 words of memory out of 5000000
- 32385 multiletter control sequences out of 15000+600000
+ 32383 multiletter control sequences out of 15000+600000
  11825 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,56p,496b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,56p,496b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
@@ -1395,10 +1384,10 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (35 pages, 668425 bytes).
+Output written on main.pdf (34 pages, 668026 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 93 named destinations out of 1000 (max. 500000)
- 344 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 388 compressed objects within 4 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 
